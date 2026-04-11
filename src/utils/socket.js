@@ -14,6 +14,7 @@ export const getSocket = () => {
       reconnectionAttempts: Infinity,
       timeout: 20000,
       transports: ["websocket", "polling"],
+      withCredentials: true,
     });
 
     // Re-join rooms after reconnect
