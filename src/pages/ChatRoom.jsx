@@ -181,7 +181,7 @@ export default function ChatRoom() {
               transition={{ duration: 0.18 }}
               className={`flex items-end gap-2 ${isMe ? "flex-row-reverse" : ""}`}
             >
-              <div className="w-7 flex-shrink-0">
+              <div className="flex-shrink-0">
                 {!isMe && showAv && <Avatar user={msg.sender} size="xs" />}
               </div>
               <div
