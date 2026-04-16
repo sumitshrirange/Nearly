@@ -81,7 +81,7 @@ export default function AppShell() {
           <img src="/Nearly_Logo.png" className="size-12" alt="" />
           <div>
             <span className="text-2xl font-bold tracking-tight font-display text-brand-600">
-              Nearly.
+              Nearly
             </span>
             <p className="text-[11px] text-gray-400 mt-0.5 font-medium">
               Community Help Exchange

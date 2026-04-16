@@ -23,7 +23,7 @@ import UserProfile from "./pages/UserProfile";
 const SplashScreen = () => (
   <div className="min-h-screen flex flex-col items-center justify-center bg-brand-600">
     <div className="text-white font-display font-bold text-5xl mb-3 tracking-tight">
-      Nearly.
+      Nearly
     </div>
     <div className="flex gap-2 mt-2">
       {[0, 1, 2].map((i) => (

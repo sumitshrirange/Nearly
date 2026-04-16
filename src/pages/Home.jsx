@@ -282,11 +282,6 @@ export default function Home() {
           <div className="flex items-center justify-between mb-4">
             <h2 className="font-display font-bold text-gray-800 text-base">
               {category === "All" ? "Nearby Requests" : `${category} Help`}
-              {!isLoading && (
-                <span className="text-gray-400 font-normal text-sm ml-2">
-                  ({filtered.length})
-                </span>
-              )}
             </h2>
             <div className="flex items-center gap-2">
               <button
