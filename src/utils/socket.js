@@ -6,7 +6,7 @@ let heartbeatInterval = null;
 
 export const getSocket = () => {
   if (!socket) {
-    socket = io("https://nearly-backend-production-48b3.up.railway.app", {
+    socket = io("https://nearly-backend-oc1s.onrender.com", {
       autoConnect: false,
       reconnection: true,
       reconnectionDelay: 1000,
